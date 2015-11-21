@@ -19,7 +19,7 @@ $(function () {
 	});
 
   TodoMVC.UserView = Backbone.Marionette.ItemView.extend({
-    template: _.template('<span><%- userName %></span><span class="remove">X</span>'),
+    template: _.template('<span><%- userName %></span><span class="remove"> ------- X</span>'),
     tagName: 'li',
 
     serializeData: function(){
